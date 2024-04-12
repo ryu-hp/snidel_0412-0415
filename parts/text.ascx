@@ -31,7 +31,11 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/2024/0419/css/style.css" />
 
 <!-- add fonts -->
-
+<link rel="stylesheet" href="https://use.typekit.net/uzc3esa.css">
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 <!-- add fonts -->
 <!-- コンテンツ部分用CSS読み込みここまで -->
 
@@ -53,59 +57,85 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <div class="SN240419holiday articleContainer" id="SN240419holiday">
 
   <%-- contents --%>
-  <section id = "mv"  class = "mv c-contents">
-    <div class="mv__inner">
-      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-        <img src="/images/page/img_01_mv.jpg" alt="Bright Summer 太陽を味方につけて叶えるサマールック">
+  <section id = "mv"  class = "mv c-contents ">
+    <div class="mv__inner js-fadeIn">
+      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday04">
+        <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_01_mv.jpg" alt="Bright Summer 太陽を味方につけて叶えるサマールック" loading="lazy">
       </a>
     </div>
-    <p class="mv-season_text c-season_text">2024 Summer Look</p>
+    <p class="mv__season_text c-season_text">2024 Summer Look</p>
   </section>
-  <section id = "first" class = "first">
+  <section id = "first" class = "first c-inner">
     <div class="first__inner">
       <div class="first__top_container c-contents">
-        <div class="first__top_image">
-          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-            <img src="/images/page/img_02.jpg" alt="Dress/Cap/Pierced earring/Shoes">
-          </a>
+        <div class="first__top-images">
+          <div class="first__top-image js-fadeIn">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday04">
+              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_02.jpg" alt="Dress/Cap/Pierced earring/Shoes">
+            </a>
+          </div>
+          <p class="first__top-text c-comodity_text">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFO242072">Dress 24,970yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGH242627">Cap 6,600yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242630">Pierced earring 3,630yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242622">Shoes 15,950yen</a>
+          </p>
         </div>
-        <div class="first__swiper_contents">
+        <div class="first__swiper-contents">
           <!-- スライダーのコンテナ -->
-          <div class="swiper active-swiper">
+          <div class="swiper js-first-swiper first-swiper js-fadeIn">
             <!-- 必要に応じたwrapper -->
             <div class="swiper-wrapper">
               <!-- スライド -->
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-                  <img src="/images/page/img_03_slide_01.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_03_slide_01.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes" loading="lazy">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-                  <img src="/images/page/img_03_slide_02.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_03_slide_02.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes" loading="lazy">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-                  <img src="/images/page/img_03_slide_03.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_03_slide_03.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes" loading="lazy">
+                </a>
+              </div>
+              <!-- スライド -->
+              <div class="swiper-slide">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_03_slide_01.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes" loading="lazy">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_03_slide_02.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes" loading="lazy">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_03_slide_03.jpg" alt="Tops/Pants/Pierced earring/Bag/Shoes" loading="lazy">
                 </a>
               </div>
             </div>
           </div>
           <!-- /Swiper -->
+          <p class="first__top-swiper_text c-comodity_text">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday02">
+              Tops 9,900yen  /  Pants 18,920yen  /  Pierced earring 3,630yen  /<br>Bag 9,900yen  /  Shoes 15,950yen
+            </a>
+          </p>
         </div>
         <p class="first__top-season_text c-season_text">2024 Summer Look</p>
       </div>
-      <div class="first__bottom_contents c-contents">
-        <div class="first__bottom_flex">
-          <div class="first__bottom_left">
-            <img src="/images/page/img_04.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen">
+      <div class="first__bottom-contents c-contents">
+        <div class="first__bottom-flex">
+          <div class="first__bottom_left js-fadeIn">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
           </div>
-          <div class="first__bottom_right">
+          <div class="first__bottom_right js-fadeIn">
             <div class="first__bottom_right_image">
-              <img src="/images/page/img_04.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen">
+              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_05.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
             </div>
-            <p class="first__bottom_right_text c-comodity_text">
+            <p class="first__bottom_right-text c-comodity_text">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday02">
                 Dress 20,900yen  /  Pierced earring 3,630yen  /<br>Bag 7,920yen  /  Shoes 15,950yen
               </a>
@@ -117,35 +147,39 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
     </div>
   </section>
   <section id = "second" class = "second">
-    <div class="second__inner">
+    <div class="second__inner c-inner">
       <div class="second__top-contents c-contents">
         <div class="second__top-flex">
           <div class="second__top-left">
-            <div class="second__top_left_image-1">
+            <div class="second__top_left-image-1 js-fadeIn">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-                <img src="/images/page/img_07.jpg" alt="">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_07.jpg" alt="" loading="lazy">
               </a>
             </div>
-            <div class="second__top_left_image-2">
+            <div class="second__top_left-image-2 js-fadeIn">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-                <img src="/images/page/img_08.jpg" alt="">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_08.jpg" alt="" loading="lazy">
               </a>
             </div>
-            <p class="second__top_left_text c-comodity_text">
+            <p class="second__top_left-text c-comodity_text">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday01">
                 Inner 5,940yen  /  Blouse 14,850yen  /<br>Pants 11,880yen  /  Pierced earrings 3,960yen  /<br>Bag 14,850yen  /  Shoes 15,950yen
               </a>
             </p>
           </div>
-          <div class="second__top-right">
-            <img src="/images/page/img_06.jpg" alt="">
+          <div class="second__top-right js-fadeIn">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
+              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_06.jpg" alt="" loading="lazy">
+            </a>
           </div>
         </div>
         <p class="second__top-season_text c-season_text">2024 Summer Look</p>
       </div>
       <div class="second__middle-contents c-contents">
-        <div class="second__middle-image">
-          <img src="/images/page/img_09.jpg" alt="">
+        <div class="second__middle-image js-fadeIn">
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09.jpg" alt="" loading="lazy">
+          </a>
         </div>
         <p class="second__middle-text c-comodity_text">
           <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday08">
@@ -155,9 +189,9 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         <p class="second__middle-season_text c-season_text">2024 Summer Look</p>
       </div>
       <div class="second__bottom-contents c-contents">
-        <div class="second__bottom-image">
-          <a href="">
-            <img src="/images/page/img_10.jpg" alt="">
+        <div class="second__bottom-image js-fadeIn">
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10.jpg" alt="" loading="lazy">
           </a>
         </div>
         <p class="second__bottom-text c-comodity_text">
@@ -170,25 +204,38 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
     </div>
   </section>
   <section id = "third" class = "third">
-    <div class="third__inner">
+    <div class="third__inner c-inner">
       <div class="third__top-contents c-contents">
-        <div class="third__top-image">
-          <img src="/images/page/img_11.jpg" alt="">
+        <div class="third__top-image js-fadeIn">
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_11.jpg" alt="" loading="lazy">
+          </a>
         </div>
         <div class="third__top-swiper">
           <!-- Swiper -->
-          <div class="swiper second-swiper">
+          <div class="swiper js-second-swiper second-swiper js-fadeIn">
             <!-- 必要に応じたwrapper -->
             <div class="swiper-wrapper">
               <!-- スライド -->
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
-                  <img src="/images/page/img_12_slide_01.jpg" alt="">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_01.jpg" alt="" loading="lazy">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
-                  <img src="/images/page/img_12_slide_01.jpg" alt="">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_02.jpg" alt="" loading="lazy">
+                </a>
+              </div>
+              <!-- スライド -->
+              <div class="swiper-slide">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_01.jpg" alt="" loading="lazy">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_02.jpg" alt="" loading="lazy">
                 </a>
               </div>
             </div>
@@ -200,19 +247,19 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </a>
           </p>
         </div>
-        <p class="second__bottom-season_text c-season_text">2024 Summer Look</p>
+        <p class="third__top-season_text c-season_text">2024 Summer Look</p>
       </div>
       <div class="third__middle-contents c-contents">
         <div class="third__middle-flex">
-          <div class="third__middle_left">
+          <div class="third__middle-left js-fadeIn">
             <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday07">
-              <img src="/images/page/img_13.jpg" alt="">
+              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_13.jpg" alt="" loading="lazy">
             </a>
           </div>
-          <div class="third__middle_right">
-            <div class="third__middle_right-image">
+          <div class="third__middle-right">
+            <div class="third__middle_right-image js-fadeIn">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday07">
-                <img src="/images/page/img_14.jpg" alt="">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_14.jpg" alt="" loading="lazy">
               </a>
             </div>
             <p class="third__middle_right-text c-comodity_text">
@@ -225,21 +272,21 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         <p class="third__middle-season_text c-season_text">2024 Summer Look</p>
       </div>
       <div class="third__bottom-contents c-contents">
-        <div class="third__bottom-image">
+        <div class="third__bottom-image js-fadeIn">
           <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday06">
-            <img src="/images/page/img_15.jpg" alt="">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_15.jpg" alt="" loading="lazy">
           </a>
         </div>
-        <div class="third__bottom_container">
+        <div class="third__bottom-container">
           <div class="third__bottom-flex">
-            <div class="third__bottom_left">
+            <div class="third__bottom-left js-fadeIn">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday06">
-                <img src="/images/page/img_16.jpg" alt="">    
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_16.jpg" alt="" loading="lazy">
               </a>
             </div>
-            <div class="third__bottom_right">
+            <div class="third__bottom-right js-fadeIn">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday06">
-                <img src="/images/page/img_16.jpg" alt="">    
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_17.jpg" alt="" loading="lazy">
               </a>
             </div>
           </div>
@@ -288,7 +335,10 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 	})
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="<%= Constants.PATH_ROOT %>Page/feature/2024/0419/js/script.js"></script>
+
+
 <!-- コンテンツ部分用JS読み込みここまで -->
 <%-- △編集可能領域△ --%>
 

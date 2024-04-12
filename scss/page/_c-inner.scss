@@ -1,0 +1,18 @@
+@use "../global" as *;
+
+.SN240419holiday {
+
+  .c-inner {
+    width: 100%;
+    max-width: calc($inner + ($padding-pc * 2));
+    padding-right: $padding-pc;
+    padding-left: $padding-pc;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    @include mq(md) {
+      padding-right: $padding-sp;
+      padding-left: $padding-sp;
+    }
+  }
+}

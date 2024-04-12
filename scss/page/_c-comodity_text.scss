@@ -1,0 +1,16 @@
+@use "../global" as *;
+
+.c-comodity_text {
+  font-size: rem(12);
+  font-weight: $normal;
+  line-height: 2;
+  letter-spacing: 0.025em;
+  font-family: $base-font-family;
+  @include mq(md) {
+      font-size: vw(20);
+      line-height: 2;
+  }
+}
+.c-comodity_text a {
+  text-decoration: underline;
+}

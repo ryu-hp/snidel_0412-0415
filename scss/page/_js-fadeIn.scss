@@ -1,0 +1,11 @@
+@use "../global" as *;
+
+.SN240419holiday {
+  .js-fadeIn {
+    opacity: 0;
+    transition: ease-in, opacity 2500ms;
+  }
+  .js-fadeIn.isActive {
+    opacity: 1;
+  }
+}

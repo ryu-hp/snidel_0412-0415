@@ -1,0 +1,71 @@
+@use "../global" as *;
+
+.SN240419holiday {
+  .first {
+    margin-top: rem(80);
+  }
+  .first__top-images {
+    max-width:rem(350);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .first__top-text {
+    margin-top: rem(24);
+  }
+  .first__swiper-contents {
+    max-width:rem(800);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: rem(194);
+  }
+  .first__top-swiper_text {
+    margin-top: rem(25);
+    line-height: calc(21 / 12);
+    max-width:rem(390);
+    margin-left: auto;
+    margin-right: auto;
+    @include mq(md) {
+      margin-top: vw(30);
+    }
+  }
+  .first__top-season_text {
+    top: 47.2%;
+    transform: translateY(-50%);
+  }
+  .first__bottom-contents {
+    margin-top: rem(199);
+    max-width:rem(800);
+    margin-left: auto;
+    margin-right: auto;
+    @include mq(md) {
+      margin-top: vw(196);
+    }
+  }
+  .first__bottom-flex {
+    display: flex;
+    justify-content: center;
+    gap: rem(20);
+    @include mq(md) {
+      gap: vw(20);
+    }
+  }
+  .first__bottom_left {
+    max-width:rem(340);
+    width: 100%;
+  }
+  .first__bottom_right {
+    max-width:rem(420);
+    width: 100%;
+    padding-top: rem(240);
+    @include mq(md) {
+      padding-top: vw(240);
+    }
+  }
+  .first__bottom_right-text {
+    margin-top: rem(25);
+  }
+  .first__bottom-season_text {
+    top: 25.3%;
+    transform: translateY(-50%);
+  }
+}

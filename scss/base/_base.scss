@@ -1,38 +1,26 @@
 @use "../global" as * ;
 
-img {
-    width: 100%;
-}
-a {
-    transition: opacity .3s ease;
-}
-a:hover {
-    opacity: 0.7;
-}
-.inner {
-    width: 100%;
-    max-width: calc($inner + ($padding-pc * 2));
-    padding-right: $padding-pc;
-    padding-left: $padding-pc;
-    margin-right: auto;
-    margin-left: auto;
-    box-sizing: border-box;
+.SN240419holiday {
+    padding-bottom: rem(150);
     @include mq(md) {
-        padding-right: $padding-sp;
-        padding-left: $padding-sp;
+        padding-bottom: vw(150);
     }
-}
-.only-mobile {
-    display: none;
-    @include mq(md) {
+    img {
+        width: 100%;
         display: block;
     }
-}
-.only-descktop {
-    @include mq(md) {
+    .only-mobile {
         display: none;
+        @include mq(md) {
+            display: block;
+        }
     }
-}
-a {
-    text-decoration: none;
+    .only-descktop {
+        @include mq(md) {
+            display: none;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
 }

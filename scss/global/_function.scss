@@ -18,7 +18,7 @@ $mediaquerys: (
 }
 // remへの計算式（16pxを基準としている。10pxを基準とする場合は16を10に変更する）
 @function rem($pixels) {
-    @return math.div($pixels, 16) * 1rem;
+    @return math.div($pixels, 10) * 1rem;
 }
 @function strip-unit($number) {
     @if type-of($number) == "number" and not unitless($number) {
@@ -27,8 +27,8 @@ $mediaquerys: (
     @return $number;
 }
 
-@function vw($window_width, $font_size) {
-    @return math.div($font_size, $window_width) * 100vw;
+@function vw($font_size) {
+    @return math.div($font_size, 751) * 100vw;
 }
 
 $base-font-family:  "neue-haas-grotesk-display", sans-serif;
@@ -44,4 +44,4 @@ $color-theme: #003566;
 $inner: 1120px;
 
 $padding-pc: rem(25);
-$padding-sp: rem(15);
+$padding-sp: vw(15);

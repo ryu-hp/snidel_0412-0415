@@ -1,0 +1,22 @@
+@use "../global" as *;
+
+.SN240419holiday {
+
+    .c-season_text {
+        position: absolute;
+        right: calc(50% - 50vw + rem(28.5));
+        font-family: $second-font-family;
+        font-size: rem(12);
+        font-weight: $light;
+        line-height: 1;
+        letter-spacing: 0.15em;
+        -webkit-text-orientation: mixed;
+        text-orientation: mixed;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+        @include mq(md) {
+            font-size: vw(18);
+            right: calc(50% - 50vw + vw(20));
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.c-comodity_text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.025em;
+}
+@media screen and (max-width: 767px) {
+  .c-comodity_text {
+    font-size: 2.6631158455vw;
+    line-height: 2;
+  }
+}

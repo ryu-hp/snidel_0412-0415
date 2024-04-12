@@ -1,0 +1,15 @@
+@use "../global" as *;
+
+.SN240419holiday {
+  .swiper-slide {
+    max-width:rem(400);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .first-swiper .swiper-slide {
+    padding: rem(0) rem(5);
+  }
+  .second-swiper .swiper-slide {
+    padding-left: rem(10);
+  }
+}
