@@ -119,9 +119,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
           </div>
           <!-- /Swiper -->
           <p class="first__top-swiper_text c-comodity_text">
-            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday02">
-              Tops 9,900yen  /  Pants 18,920yen  /  Pierced earring 3,630yen  /<br>Bag 9,900yen  /  Shoes 15,950yen
-            </a>
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWCT242054">Tops 9,900yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP242048">Pants 18,920yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242630">Pierced earring 3,630yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGB242652">Bag 9,900yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242621">Shoes 15,950yen</a>
           </p>
         </div>
         <p class="first__top-season_text c-season_text">2024 Summer Look</p>
@@ -129,16 +127,18 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
       <div class="first__bottom-contents c-contents">
         <div class="first__bottom-flex">
           <div class="first__bottom_left js-fadeIn">
-            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday02">
+              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
+            </a>
           </div>
           <div class="first__bottom_right js-fadeIn">
             <div class="first__bottom_right_image">
-              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_05.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday02">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_05.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
+              </a>
             </div>
             <p class="first__bottom_right-text c-comodity_text">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday02">
-                Dress 20,900yen  /  Pierced earring 3,630yen  /<br>Bag 7,920yen  /  Shoes 15,950yen
-              </a>
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFO242063">Dress 20,900yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242630">Pierced earring 3,630yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGB242607">Bag 7,920yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242622">Shoes 15,950yen</a>
             </p>
           </div>
         </div>
@@ -152,24 +152,22 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         <div class="second__top-flex">
           <div class="second__top-left">
             <div class="second__top_left-image-1 js-fadeIn">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_07.jpg" alt="" loading="lazy">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday01">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_07.jpg" alt="Inner 5,940yen/Blouse 14,850yen/Pants 11,880yen/Pierced earrings 3,960yen/Bag 14,850yen/Shoes 15,950yen" loading="lazy">
               </a>
             </div>
             <div class="second__top_left-image-2 js-fadeIn">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_08.jpg" alt="" loading="lazy">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday01">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_08.jpg" alt="Inner 5,940yen/Blouse 14,850yen/Pants 11,880yen/Pierced earrings 3,960yen/Bag 14,850yen/Shoes 15,950yen" loading="lazy">
               </a>
             </div>
             <p class="second__top_left-text c-comodity_text">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday01">
-                Inner 5,940yen  /  Blouse 14,850yen  /<br>Pants 11,880yen  /  Pierced earrings 3,960yen  /<br>Bag 14,850yen  /  Shoes 15,950yen
-              </a>
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWCT244025">Inner 5,940yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFB242217">Blouse 14,850yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWCP242138">Pants 11,880yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242632">Pierced earrings 3,960yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGB242611">Bag 14,850yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242622">Shoes 15,950yen</a>
             </p>
           </div>
           <div class="second__top-right js-fadeIn">
             <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_06.jpg" alt="" loading="lazy">
+              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_06.jpg" alt="Inner 5,940yen/Blouse 14,850yen/Pants 11,880yen/Pierced earrings 3,960yen/Bag 14,850yen/Shoes 15,950yen" loading="lazy">
             </a>
           </div>
         </div>
@@ -177,27 +175,23 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
       </div>
       <div class="second__middle-contents c-contents">
         <div class="second__middle-image js-fadeIn">
-          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09.jpg" alt="" loading="lazy">
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday01">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09.jpg" alt="Dress 17,600yen/Pants 12,980yen/Cap 6,600yen/Pierced earrings 3,960yen/Socks 1,980yen/Shoes 14,960yen" loading="lazy">
           </a>
         </div>
         <p class="second__middle-text c-comodity_text">
-          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday08">
-            Dress 17,600yen  /  Pants 12,980yen  /<br>Cap 6,600yen  /  Pierced earrings 3,960yen  /<br>Socks 1,980yen  /  Shoes 14,960yen
-          </a>
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFO242060">Dress 17,600yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP244033">Pants 12,980yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGH244602">Cap 6,600yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242632">Pierced earrings 3,960yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGG242650">Socks 1,980yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242620">Shoes 14,960yen</a>
         </p>
         <p class="second__middle-season_text c-season_text">2024 Summer Look</p>
       </div>
       <div class="second__bottom-contents c-contents">
         <div class="second__bottom-image js-fadeIn">
-          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10.jpg" alt="" loading="lazy">
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday03">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10.jpg" alt="Tops 17,930yen/Skirt 8,360yen/Pierced earring 3,630yen/Bag 14,850yen/Shoes 17,930yen" loading="lazy">
           </a>
         </div>
         <p class="second__bottom-text c-comodity_text">
-          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday03">
-            Tops 17,930yen  /  Skirt 8,360yen  /<br>Pierced earring 3,630yen  /  Bag 14,850yen  /<br>Shoes 17,930yen
-          </a>
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWNT242039">Tops 17,930yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWCS242129">Skirt 8,360yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242630">Pierced earring 3,630yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGB242611">Bag 14,850yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242618">Shoes 17,930yen</a>
         </p>
         <p class="second__bottom-season_text c-season_text">2024 Summer Look</p>
       </div>
@@ -207,8 +201,8 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     <div class="third__inner c-inner">
       <div class="third__top-contents c-contents">
         <div class="third__top-image js-fadeIn">
-          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=">
-            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_11.jpg" alt="" loading="lazy">
+          <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday09">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_11.jpg" alt="Blouse 14,960yen/Pants 15,950yen/Pierced earring 3,960yen/Shoes 15,400yen" loading="lazy">
           </a>
         </div>
         <div class="third__top-swiper">
@@ -219,32 +213,30 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
               <!-- スライド -->
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
-                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_01.jpg" alt="" loading="lazy">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_01.jpg" alt="Blouse 14,960yen/Pants 15,950yen/Pierced earring 3,960yen/Shoes 15,400yen" loading="lazy">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
-                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_02.jpg" alt="" loading="lazy">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_02.jpg" alt="Blouse 14,960yen/Pants 15,950yen/Pierced earring 3,960yen/Shoes 15,400yen" loading="lazy">
                 </a>
               </div>
               <!-- スライド -->
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
-                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_01.jpg" alt="" loading="lazy">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_01.jpg" alt="Blouse 14,960yen/Pants 15,950yen/Pierced earring 3,960yen/Shoes 15,400yen" loading="lazy">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
-                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_02.jpg" alt="" loading="lazy">
+                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_12_slide_02.jpg" alt="Blouse 14,960yen/Pants 15,950yen/Pierced earring 3,960yen/Shoes 15,400yen" loading="lazy">
                 </a>
               </div>
             </div>
           </div>
           <!-- /Swiper -->
           <p class="third__top-text c-comodity_text">
-            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday09">
-              Blouse 14,960yen  /  Pants 15,950yen  /<br>Pierced earring 3,960yen  /  Shoes 15,400yen
-            </a>
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFB242037">Blouse 14,960yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP242137">Pants 15,950yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242632">Pierced earring 3,960yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242617">Shoes 15,400yen</a>
           </p>
         </div>
         <p class="third__top-season_text c-season_text">2024 Summer Look</p>
@@ -253,19 +245,17 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         <div class="third__middle-flex">
           <div class="third__middle-left js-fadeIn">
             <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday07">
-              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_13.jpg" alt="" loading="lazy">
+              <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_13.jpg" alt="Dress 19,800yen/Pierced earring 3,630yen/Bag 13,750yen/Shoes 15,950yen" loading="lazy">
             </a>
           </div>
           <div class="third__middle-right">
             <div class="third__middle_right-image js-fadeIn">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday07">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_14.jpg" alt="" loading="lazy">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_14.jpg" alt="Dress 19,800yen/Pierced earring 3,630yen/Bag 13,750yen/Shoes 15,950yen" loading="lazy">
               </a>
             </div>
             <p class="third__middle_right-text c-comodity_text">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday07">
-                Dress 19,800yen  /  Pierced earring 3,630yen  /<br>Bag 13,750yen  /  Shoes 15,950yen
-              </a>
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFO242034">Dress 19,800yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242630">Pierced earring 3,630yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGB241629">Bag 13,750yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242622">Shoes 15,950yen</a>
             </p>
           </div>
         </div>
@@ -274,26 +264,24 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
       <div class="third__bottom-contents c-contents">
         <div class="third__bottom-image js-fadeIn">
           <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday06">
-            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_15.jpg" alt="" loading="lazy">
+            <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_15.jpg" alt="Dress 17,820yen/Pierced earring 3,630yen/Shoes 14,960yen" loading="lazy">
           </a>
         </div>
         <div class="third__bottom-container">
           <div class="third__bottom-flex">
             <div class="third__bottom-left js-fadeIn">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday06">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_16.jpg" alt="" loading="lazy">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_16.jpg" alt="Dress 17,820yen/Pierced earring 3,630yen/Shoes 14,960yen" loading="lazy">
               </a>
             </div>
             <div class="third__bottom-right js-fadeIn">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday06">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_17.jpg" alt="" loading="lazy">
+                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_17.jpg" alt="Dress 17,820yen/Pierced earring 3,630yen/Shoes 14,960yen" loading="lazy">
               </a>
             </div>
           </div>
           <p class="third__bottom-text c-comodity_text">
-            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pgi=SN240419holiday06">
-              Dress 17,820yen  /  Pierced earring 3,630yen  /<br>Shoes 14,960yen
-            </a>
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWNO242210">Dress 17,820yen</a>  /  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242630">Pierced earring 3,630yen</a>  /<br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242620">Shoes 14,960yen</a>
           </p>
         </div>
         <p class="third__bottom-season_text c-season_text">2024 Summer Look</p>

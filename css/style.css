@@ -94,6 +94,7 @@
 
 .c-comodity_text a {
   text-decoration: underline;
+  display: inline;
 }
 
 .SN240419holiday .swiper-slide {
