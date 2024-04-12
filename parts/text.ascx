@@ -28,7 +28,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
 <%-- ▽ 編集可能領域：コンテンツ ▽ --%>
 <!-- コンテンツ部分用CSS読み込みここから -->
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/snidel_template/css/style.css" />
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/2024/0419/css/style.css" />
 
 <!-- add fonts -->
 
@@ -43,14 +43,14 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
     <span>＞</span>
     <a href="<%= Constants.PATH_ROOT %>page/topics/">TOPICS</a>
     <span>＞</span>
-    （企画のタイトルが入ります）
+    Bright Summer 太陽を味方につけて叶えるサマールック
   </p>
 </div>
 <!-- breadlist -->
 
 
 <%-- ▽ LP編集エリア ▽ --%>
-<div class="(計測タグ) articleContainer" id="(計測タグ)">
+<div class="SN240419holiday articleContainer" id="SN240419holiday">
 
   <%-- contents --%>
 
@@ -88,7 +88,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 	})
 </script>
 
-<script src="<%= Constants.PATH_ROOT %>Page/feature/snidel_template/js/script.js"></script>
+<script src="<%= Constants.PATH_ROOT %>Page/feature/2024/0419/js/script.js"></script>
 <!-- コンテンツ部分用JS読み込みここまで -->
 <%-- △編集可能領域△ --%>
 

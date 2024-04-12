@@ -7,8 +7,8 @@
 --%>
 
 <%-- ▽ユーザーコントロール宣言領域▽ --%>
-<%@ Page Title="（企画のタイトルが入ります）" Language="C#" Inherits="ContentsPage" MasterPageFile="~/Form/Common/DefaultPage.master" %>
-<%@ Register TagPrefix="uc" TagName="text" Src="~/page/feature/snidel_template/parts/text.ascx" %>
+<%@ Page Title="Bright Summer 太陽を味方につけて叶えるサマールック" Language="C#" Inherits="ContentsPage" MasterPageFile="~/Form/Common/DefaultPage.master" %>
+<%@ Register TagPrefix="uc" TagName="text" Src="~/page/feature/2024/0419/parts/text.ascx" %>
 <%-- △ユーザーコントロール宣言領域△ --%>
 
 <%--

@@ -7,8 +7,8 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 --%>
 
 <%-- ▽ユーザーコントロール宣言領域▽ --%>
-<%@ Page Title="（企画のタイトルが入ります）" Language="C#" Inherits="BasePage" MasterPageFile="~/SmartPhone/Form/Common/DefaultPage.master" %>
-<%@ Register TagPrefix="uc" TagName="text" Src="~/page/feature/snidel_template/parts/text.ascx" %>
+<%@ Page Title="Bright Summer 太陽を味方につけて叶えるサマールック" Language="C#" Inherits="BasePage" MasterPageFile="~/SmartPhone/Form/Common/DefaultPage.master" %>
+<%@ Register TagPrefix="uc" TagName="text" Src="~/page/feature/2024/0419/parts/text.ascx" %>
 <%-- △ユーザーコントロール宣言領域△ --%>
 
 <%--

@@ -1,0 +1,47 @@
+@use "sass:math";
+
+//ブレイクポイント
+$breakpoints: (
+  md: 767,
+  lg: 959,
+);
+//メディアクエリー
+$mediaquerys: (
+  md: "screen and (max-width: #{map-get($breakpoints,'md')}px)",
+  lg: "screen and (max-width: #{map-get($breakpoints,'lg')}px)",
+);
+// @include mq(){}で書くとブレークポイントが反映される（初期値はmd）
+@mixin mq($mediaquery: md) {
+  @media #{map-get($mediaquerys, $mediaquery)} {
+    @content;
+  }
+}
+// remへの計算式（16pxを基準としている。10pxを基準とする場合は16を10に変更する）
+@function rem($pixels) {
+    @return math.div($pixels, 16) * 1rem;
+}
+@function strip-unit($number) {
+    @if type-of($number) == "number" and not unitless($number) {
+        @return math.div($number, $number * 0 + 1);
+    }
+    @return $number;
+}
+
+@function vw($window_width, $font_size) {
+    @return math.div($font_size, $window_width) * 100vw;
+}
+
+$base-font-family:  "neue-haas-grotesk-display", sans-serif;
+$second-font-family: "the-seasons", sans-serif ;
+$bold : 700;
+$normal : 500;
+$light : 400;
+
+$color-black: #000;
+$color-white: #fff;
+$color-theme: #003566;
+
+$inner: 1120px;
+
+$padding-pc: rem(25);
+$padding-sp: rem(15);

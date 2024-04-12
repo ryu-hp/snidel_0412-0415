@@ -1,0 +1,38 @@
+@use "../global" as * ;
+
+img {
+    width: 100%;
+}
+a {
+    transition: opacity .3s ease;
+}
+a:hover {
+    opacity: 0.7;
+}
+.inner {
+    width: 100%;
+    max-width: calc($inner + ($padding-pc * 2));
+    padding-right: $padding-pc;
+    padding-left: $padding-pc;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    @include mq(md) {
+        padding-right: $padding-sp;
+        padding-left: $padding-sp;
+    }
+}
+.only-mobile {
+    display: none;
+    @include mq(md) {
+        display: block;
+    }
+}
+.only-descktop {
+    @include mq(md) {
+        display: none;
+    }
+}
+a {
+    text-decoration: none;
+}
