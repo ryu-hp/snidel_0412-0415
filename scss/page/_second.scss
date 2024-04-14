@@ -4,7 +4,7 @@
   .second {
     margin-top: rem(193);
     @include mq(md) {
-      margin-top: vw(193);
+      margin-top: vw(238.4);
     }
   }
   .second__top-contents {
@@ -21,7 +21,8 @@
     margin-right: auto;
     gap: rem(100);
     @include mq(md) {
-      gap: vw(100);
+      gap: vw(150.2);
+      flex-direction: column-reverse;
     }
   }
   .second__top-left {
@@ -30,27 +31,38 @@
     padding-top: rem(260);
     @include mq(md) {
       padding-top: 0;
+      max-width: vw(551);
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   .second__top_left-image-2 {
     margin-top: rem(10);
     @include mq(md) {
-      margin-top: vw(10);
+      margin-top: vw(19.56);
     }
   }
   .second__top_left-text {
     margin-top: rem(24);
     @include mq(md) {
-      margin-top: vw(24);
+      margin-top: vw(40);
     }
   }
   .second__top-right {
     max-width:rem(420);
     width: 100%;
+    @include mq(md) {
+      width: 100vw;
+      max-width: 100vw;
+      margin-left: calc(50% - 50vw);
+    }
   }
   .second__top-season_text {
     top: 23.9%;
     transform: translateY(-50%);
+    @include mq(md) {
+      top: 54.4%;
+    }
   }
   .second__middle-contents {
     margin-top: rem(194);
@@ -58,17 +70,22 @@
     margin-left: auto;
     margin-right: auto;
     @include mq(md) {
-      margin-top: vw(194);
+      margin-top: vw(237.9);
+      max-width: vw(631);
     }
   }
   .second__middle-text {
     margin-top: rem(24);
     @include mq(md) {
-      margin-top: vw(24);
+      margin-top: vw(40);
     }
   }
   .second__middle-season_text {
     top: -3.8%;
+    @include mq(md) {
+      top: 42.9%;
+      transform: translateY(-50%);
+    }
   }
   .second__bottom-contents {
     margin-top: rem(194);
@@ -76,14 +93,25 @@
     margin-left: auto;
     margin-right: auto;
     @include mq(md) {
-      margin-top: vw(194);
+      margin-top: vw(238.7);
+      width: 100vw;
+      max-width: 100vw;
+      margin-left: calc(50% - 50vw);
     }
   }
   .second__bottom-text {
     margin-top: rem(24);
+    @include mq(md) {
+      padding-left: $padding-sp;
+      padding-right: $padding-sp;
+      margin-top: vw(40);
+    }
   }
   .second__bottom-season_text {
     top:36.9%;
     transform: translateY(-50%);
+    @include mq(md) {
+      top: 40%;
+    }
   }
 }

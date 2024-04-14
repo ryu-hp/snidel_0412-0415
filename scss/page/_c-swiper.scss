@@ -5,11 +5,22 @@
     max-width:rem(400);
     width: 100%;
     box-sizing: border-box;
+    @include mq(md) {
+      max-width:vw(570.6);
+    }
   }
   .first-swiper .swiper-slide {
     padding: rem(0) rem(5);
+    @include mq(md) {
+      padding-left: 0;
+      padding-right: vw(20);
+    }
   }
   .second-swiper .swiper-slide {
     padding-left: rem(10);
+    @include mq(md) {
+      padding-left: 0;
+      padding-right: vw(20);
+    }
   }
 }

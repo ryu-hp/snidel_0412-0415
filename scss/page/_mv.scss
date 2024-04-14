@@ -5,9 +5,15 @@
     max-width:rem(495);
     margin-left: auto;
     margin-right: auto;
+    @include mq(md) {
+      max-width: 100%;
+    }
   }
   .mv__season_text {
     top: calc(50% + rem(1));
     transform: translateY(-50%);
+    @include mq(md) {
+      display: none;
+    }
   }
 }

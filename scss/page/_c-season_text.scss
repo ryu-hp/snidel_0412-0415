@@ -16,7 +16,7 @@
         writing-mode: vertical-rl;
         @include mq(md) {
             font-size: vw(18);
-            right: calc(50% - 50vw + vw(20));
+            right: calc(50% - 50vw + vw(31));
         }
     }
 }

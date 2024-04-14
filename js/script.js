@@ -2,16 +2,16 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
   let firstSwiper = new Swiper('.js-first-swiper', {
     slidesPerView: 'auto',
     loop: true,
-    centeredSlides: true,
+    centeredSlides: false,
+    breakpoints: {
+      768: {
+        centeredSlides: true,
+      }
+    },
     speed: 1300,
     autoplay: {
       delay: 4000,
       disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true,
     },
   });
   
@@ -24,11 +24,6 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     autoplay: {
       delay: 4000,
       disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true,
     },
   });
 

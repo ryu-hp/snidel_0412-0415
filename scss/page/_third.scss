@@ -5,14 +5,17 @@
     margin-top: rem(194);
     padding-bottom: rem(144);
     @include mq(md) {
-      padding-bottom: vw(144);
-      margin-top: vw(194);
+      padding-bottom: vw(107.5);
+      margin-top: vw(238.1);
     }
   }
   .third__top-image {
     max-width:rem(420);
     margin-left: auto;
     margin-right: auto;
+    @include mq(md) {
+      max-width:vw(601);
+    }
   }
   .third__top-swiper {
     margin-top: rem(80);
@@ -20,18 +23,25 @@
     margin-left: auto;
     margin-right: auto;
     @include mq(md) {
-      margin-top: vw(80);
+      margin-top: vw(150.4);
+      width: 100vw;
+      max-width: 100vw;
+      margin-left: calc(50% - 50vw);
     }
   }
   .third__top-text {
     margin-top: rem(24);
     @include mq(md) {
-      margin-top: vw(24);
+      margin-top: vw(40);
+      padding: 0 $padding-sp;
     }
   }
   .third__top-season_text {
     top: 33.15%;
     transform: translateY(-50%);
+    @include mq(md) {
+      top: 22.62%;
+    }
   }
   .third__middle-contents {
     margin-top: rem(194);
@@ -39,7 +49,10 @@
     margin-left: auto;
     margin-right: auto;
     @include mq(md) {
-      margin-top: vw(194);
+      margin-top: vw(238.3);
+      width: 100vw;
+      max-width: 100vw;
+      margin-left: calc(50% - 50vw);
     }
   }
   .third__middle-flex {
@@ -47,37 +60,56 @@
     gap: rem(20);
     justify-content: center;
     @include mq(md) {
-      gap: vw(20);
+      display: block;
     }
   }
   .third__middle-left {
     max-width:rem(340);
     width: 100%;
+    @include mq(md) {
+      max-width: vw(530.9);
+      margin-right: auto;
+    }
   }
   .third__middle-right {
     max-width:rem(450);
     width: 100%;
     padding-top: rem(200);
+    @include mq(md) {
+      max-width: vw(650.8);
+      margin-left: auto;
+      padding-top: 0;
+      margin-top: vw(20);
+    }
   }
   .third__middle_right-text {
     margin-top: rem(24);
     @include mq(md) {
-      margin-top: vw(24);
+      margin-top: vw(40);
     }
   }
   .third__middle-season_text {
     top: 2.2%;
+    @include mq(md) {
+      top: 20.9%;
+      transform: translateY(-50%);
+    }
   }
   .third__bottom-contents {
     margin-top: rem(194);
     @include mq(md) {
-      margin-top: vw(194);
+      margin-top: vw(238.3);
     }
   }
   .third__bottom-image {
     max-width:rem(450);
     margin-left: auto;
     margin-right: auto;
+    @include mq(md) {
+      width: 100vw;
+      max-width: 100vw;
+      margin-left: calc(50% - 50vw);
+    }
   }
   .third__bottom-container {
     max-width:rem(710);
@@ -85,7 +117,8 @@
     margin-right: auto;
     margin-top: rem(80);
     @include mq(md) {
-      margin-top: vw(80);
+      margin-top: vw(150.2);
+      max-width: vw(551);
     }
   }
   .third__bottom-flex {
@@ -93,22 +126,29 @@
     justify-content: center;
     gap: rem(10);
     @include mq(md) {
-      gap:vw(10)
+      gap:vw(21);
+      flex-direction: column;
     }
   }
   .third__bottom-left,
   .third__bottom-right {
     max-width:rem(350);
     width: 100%;
+    @include mq(md) {
+      max-width: 100%;
+    }
   }
   .third__bottom-text {
     margin-top: rem(24);
     @include mq(md) {
-      margin-top: vw(24);
+      margin-top: vw(40);
     }
   }
   .third__bottom-season_text {
     top: 25%;
     transform: translateY(-50%);
+    @include mq(md) {
+      top: 55.06%;
+    }
   }
 }
