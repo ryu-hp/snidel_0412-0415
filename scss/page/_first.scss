@@ -13,6 +13,7 @@
     margin-right: auto;
     @include mq(md) {
       max-width:vw(551);
+      padding-right: vw(1);
     }
   }
   .first__top-text {
@@ -27,7 +28,7 @@
     margin-right: auto;
     margin-top: rem(194);
     @include mq(md) {
-      margin-top: vw(238.4);
+      margin-top: vw(238);
       width: 100vw;
       max-width: 100vw;
       margin-left: calc(50% - 50vw);
@@ -60,7 +61,7 @@
     margin-left: auto;
     margin-right: auto;
     @include mq(md) {
-      margin-top: vw(238.2);
+      margin-top: vw(238);
       width: 100vw;
       max-width: 100vw;
       margin-left: calc(50% - 50vw);
@@ -78,7 +79,7 @@
     max-width:rem(340);
     width: 100%;
     @include mq(md) {
-      max-width:vw(571);
+      max-width:vw(570);
       margin-right: auto;
     }
   }
@@ -89,7 +90,7 @@
     @include mq(md) {
       padding-top: 0;
       max-width: vw(651);
-      margin-top: vw(20);
+      margin-top: vw(19);
       margin-left: auto;
     }
   }

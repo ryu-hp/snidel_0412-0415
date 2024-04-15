@@ -6,7 +6,7 @@
     width: 100%;
     box-sizing: border-box;
     @include mq(md) {
-      max-width:vw(570.6);
+      max-width:vw(570);
     }
   }
   .first-swiper .swiper-slide {
@@ -17,9 +17,8 @@
     }
   }
   .second-swiper .swiper-slide {
-    padding-left: rem(10);
+    padding-right: rem(10);
     @include mq(md) {
-      padding-left: 0;
       padding-right: vw(20);
     }
   }

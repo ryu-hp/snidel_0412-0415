@@ -4,7 +4,7 @@
   .second {
     margin-top: rem(193);
     @include mq(md) {
-      margin-top: vw(238.4);
+      margin-top: vw(236);
     }
   }
   .second__top-contents {
@@ -21,7 +21,7 @@
     margin-right: auto;
     gap: rem(100);
     @include mq(md) {
-      gap: vw(150.2);
+      gap: vw(150);
       flex-direction: column-reverse;
     }
   }
@@ -34,6 +34,7 @@
       max-width: vw(551);
       margin-left: auto;
       margin-right: auto;
+      padding-right: vw(1);
     }
   }
   .second__top_left-image-2 {
@@ -72,6 +73,7 @@
     @include mq(md) {
       margin-top: vw(237.9);
       max-width: vw(631);
+      padding-right: vw(1);
     }
   }
   .second__middle-text {
@@ -93,7 +95,7 @@
     margin-left: auto;
     margin-right: auto;
     @include mq(md) {
-      margin-top: vw(238.7);
+      margin-top: vw(238);
       width: 100vw;
       max-width: 100vw;
       margin-left: calc(50% - 50vw);
