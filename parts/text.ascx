@@ -61,8 +61,8 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     <div class="mv__inner js-fadeIn">
       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday04">
         <picture>
-          <source srcset="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_01_mv_sp.jpg" media="(max-width: 767px)" type="image/jpeg">
-          <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_01_mv.jpg" alt="Bright Summer 太陽を味方につけて叶えるサマールック">
+          <source srcset="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_01_mv_sp.jpg?202404151332" media="(max-width: 767px)" type="image/jpeg">
+          <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_01_mv.jpg?202404151332" alt="Bright Summer 太陽を味方につけて叶えるサマールック">
         </picture>
       </a>
     </div>
