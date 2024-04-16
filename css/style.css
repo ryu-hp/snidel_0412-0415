@@ -49,6 +49,10 @@
   text-decoration: none;
 }
 
+#Contents {
+  overflow: clip;
+}
+
 .SN240419holiday .js-fadeIn {
   opacity: 0;
   -webkit-transition: ease-in, opacity 2500ms;
@@ -179,6 +183,25 @@
   opacity: 1;
 }
 
+.c-sticky {
+  height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.SN240419holiday .c-wrapper {
+  position: relative;
+}
+.SN240419holiday .c-wrapper__season_text {
+  height: 100%;
+}
+
+.SN240419holiday .mv {
+  z-index: 2;
+}
 .SN240419holiday .mv__inner {
   max-width: 49.5rem;
   margin-left: auto;

@@ -1,0 +1,10 @@
+@use "../global" as *;
+
+.c-sticky {
+  height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+}

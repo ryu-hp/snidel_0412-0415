@@ -1,6 +1,9 @@
 @use "../global" as *;
 
 .SN240419holiday {
+  .mv {
+    z-index: 2;
+  }
   .mv__inner {
     max-width:rem(495);
     margin-left: auto;
