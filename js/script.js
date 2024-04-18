@@ -14,9 +14,6 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
       disableOnInteraction: false,
     },
   });
-  
-  console.log(firstSwiper); // Swiperの初期化が完了した後にインスタンス情報をログ出力
-  
   let secondSwiper = new Swiper('.js-second-swiper', {
     slidesPerView: 'auto',
     loop: true,
@@ -26,9 +23,23 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
       disableOnInteraction: false,
     },
   });
-
-  console.log(secondSwiper); // 同じくsecondSwiperのインスタンス情報をログ出力
+  ['first', 'second', 'third'].forEach(id => {
+    new Swiper(`.fade-${id}-swiper`, {
+      loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
+      speed: 1000,
+    });
+  });
 });
+
 
 // フェードアニメーション関数
 function fadeAnimation(triggerClass, value) {

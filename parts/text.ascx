@@ -129,11 +129,34 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
           </div>
           <div class="first__bottom-contents c-contents">
             <div class="first__bottom-flex">
-              <div class="first__bottom_left js-fadeIn c-hover">
-                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday02">
-                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
-                  <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04_hover.jpg" class="c-hover__img" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
-                </a>
+              <div class="first__bottom_left js-fadeIn">
+                <!-- スライダーのコンテナ -->
+                <div class="swiper fade-first-swiper">
+                  <!-- 必要に応じたwrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- スライド -->
+                    <div class="swiper-slide">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday02">
+                        <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday02">
+                        <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04_hover.jpg"  alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday02">
+                        <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04.jpg" alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday02">
+                        <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_04_hover.jpg"  alt="Dress 20,900yen/Pierced earring 3,630yen/Bag 7,920yen/Shoes 15,950yen" loading="lazy">
+                      </a>
+                    </div>
+                  </div>
+                </div><!-- /Swiper -->
               </div>
               <div class="first__bottom_right js-fadeIn">
                 <div class="first__bottom_right_image">
@@ -176,22 +199,68 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
             </div>
           </div>
           <div class="second__middle-contents c-contents">
-            <div class="second__middle-image js-fadeIn c-hover">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday01">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09.jpg" alt="Dress 17,600yen/Pants 12,980yen/Cap 6,600yen/Pierced earrings 3,960yen/Socks 1,980yen/Shoes 14,960yen" loading="lazy">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09_hover.jpg" class="c-hover__img" alt="Dress 17,600yen/Pants 12,980yen/Cap 6,600yen/Pierced earrings 3,960yen/Socks 1,980yen/Shoes 14,960yen" loading="lazy">
-              </a>
+            <div class="second__middle-image js-fadeIn">
+              <!-- スライダーのコンテナ -->
+              <div class="swiper fade-second-swiper">
+                <!-- 必要に応じたwrapper -->
+                <div class="swiper-wrapper">
+                  <!-- スライド -->
+                  <div class="swiper-slide">
+                    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday01">
+                      <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09.jpg" alt="Dress 17,600yen/Pants 12,980yen/Cap 6,600yen/Pierced earrings 3,960yen/Socks 1,980yen/Shoes 14,960yen" loading="lazy">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday01">
+                      <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09_hover.jpg"  alt="Dress 17,600yen/Pants 12,980yen/Cap 6,600yen/Pierced earrings 3,960yen/Socks 1,980yen/Shoes 14,960yen" loading="lazy">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday01">
+                      <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09.jpg" alt="Dress 17,600yen/Pants 12,980yen/Cap 6,600yen/Pierced earrings 3,960yen/Socks 1,980yen/Shoes 14,960yen" loading="lazy">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday01">
+                      <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_09_hover.jpg"  alt="Dress 17,600yen/Pants 12,980yen/Cap 6,600yen/Pierced earrings 3,960yen/Socks 1,980yen/Shoes 14,960yen" loading="lazy">
+                    </a>
+                  </div>
+                </div>
+              </div><!-- /Swiper -->
             </div>
             <p class="second__middle-text c-comodity_text">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFO242060">Dress 17,600yen</a><span class="c-blanck">/</span><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP244033">Pants 12,980yen</a><span class="c-blanck">/</span><br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGH244602">Cap 6,600yen</a><span class="c-blanck">/</span><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242632">Pierced earrings 3,960yen</a><span class="c-blanck">/</span><br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGG242650">Socks 1,980yen</a><span class="c-blanck">/</span><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242620">Shoes 14,960yen</a>
             </p>
           </div>
           <div class="second__bottom-contents c-contents">
-            <div class="second__bottom-image js-fadeIn c-hover">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday03">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10.jpg" alt="Tops 17,930yen/Skirt 8,360yen/Pierced earring 3,630yen/Bag 14,850yen/Shoes 17,930yen" loading="lazy">
-                <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10_hover.jpg" class="c-hover__img" alt="Tops 17,930yen/Skirt 8,360yen/Pierced earring 3,630yen/Bag 14,850yen/Shoes 17,930yen" loading="lazy">
-              </a>
+            <div class="second__bottom-image js-fadeIn">
+              <!-- スライダーのコンテナ -->
+              <div class="swiper fade-third-swiper">
+                <!-- 必要に応じたwrapper -->
+                <div class="swiper-wrapper">
+                  <!-- スライド -->
+                  <div class="swiper-slide">
+                    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday03">
+                      <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10_hover.jpg"  alt="Tops 17,930yen/Skirt 8,360yen/Pierced earring 3,630yen/Bag 14,850yen/Shoes 17,930yen" loading="lazy">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday03">
+                      <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10.jpg" alt="Tops 17,930yen/Skirt 8,360yen/Pierced earring 3,630yen/Bag 14,850yen/Shoes 17,930yen" loading="lazy">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday03">
+                      <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10_hover.jpg"  alt="Tops 17,930yen/Skirt 8,360yen/Pierced earring 3,630yen/Bag 14,850yen/Shoes 17,930yen" loading="lazy">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=SN240419holiday03">
+                      <img src="<%= Constants.PATH_ROOT %>page/feature/2024/0419/images/page/img_10.jpg" alt="Tops 17,930yen/Skirt 8,360yen/Pierced earring 3,630yen/Bag 14,850yen/Shoes 17,930yen" loading="lazy">
+                    </a>
+                  </div>
+                </div>
+              </div><!-- /Swiper -->
             </div>
             <p class="second__bottom-text c-comodity_text">
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWNT242039">Tops 17,930yen</a><span class="c-blanck">/</span><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWCS242129">Skirt 8,360yen</a><span class="c-blanck">/</span><br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGA242630">Pierced earring 3,630yen</a><span class="c-blanck">/</span><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGB242611">Bag 14,850yen</a><span class="c-blanck">/</span><br><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWGS242618">Shoes 17,930yen</a>

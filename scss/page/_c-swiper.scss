@@ -1,12 +1,15 @@
 @use "../global" as *;
 
 .SN240419holiday {
-  .swiper-slide {
-    max-width:rem(400);
-    width: 100%;
-    box-sizing: border-box;
-    @include mq(md) {
-      max-width:vw(570);
+  .first-swiper ,
+  .second-swiper {
+    .swiper-slide {
+      max-width:rem(400);
+      width: 100%;
+      box-sizing: border-box;
+      @include mq(md) {
+        max-width:vw(570);
+      }
     }
   }
   .first-swiper .swiper-slide {
